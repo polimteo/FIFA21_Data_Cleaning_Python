@@ -15,7 +15,7 @@ Several issues were resolved in this dataset:
 **Missing values**
   
 - The 'Loan Date End' and 'Hits' columns contained missing values.
-- In 'Loan Date End', the missing values represent players who are either on free transfer or under a permanent contract, so the missing values are valid in this context.
+- In the 'Loan Date End', the dates represent when the contracts for players on loan would end, while blank entries indicate players who are either free agents or under a regular contract. Therefore, these missing values are valid.
 - In the 'Hits' column, missing values indicate that players haven't been searched in the database. These blanks were replaced with 0, and the data type was changed to integer.
   
 **Inconsistent formatting of data.**
